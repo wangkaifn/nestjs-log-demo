@@ -1,0 +1,12 @@
+{"level":"error","message":"请求getUsers失败","stack":[null]}
+{"level":"warn","message":"请求getUsers警告"}
+[31m[nest-winston][39m [31m53129[39m 2024/12/4 00:05:02 [31m  ERROR[39m  [31m请求getUsers失败[39m - { stack: [ [1mnull[22m ] } [33m+1ms[39m
+[33m[nest-winston][39m [33m53129[39m 2024/12/4 00:05:02 [33m   WARN[39m  [33m请求getUsers警告[39m [33m+0ms[39m
+[31m[nest-winston][39m [31m53129[39m 2024/12/4 00:05:07 [31m  ERROR[39m  [31m请求getUsers失败[39m - { stack: [ [1mnull[22m ] } [33m+1ms[39m
+[33m[nest-winston][39m [33m53129[39m 2024/12/4 00:05:07 [33m   WARN[39m  [33m请求getUsers警告[39m [33m+0ms[39m
+error: 请求getUsers失败 {"ms":"+1ms","stack":[null],"timestamp":"2024-12-03T16:08:25.998Z"}
+warn: 请求getUsers警告 {"ms":"+0ms","timestamp":"2024-12-03T16:08:25.999Z"}
+error: 请求getUsers失败 {"ms":"+1ms","stack":[null],"timestamp":"2024-12-03T16:13:38.003Z"}
+warn: 请求getUsers警告 {"ms":"+0ms","timestamp":"2024-12-03T16:13:38.003Z"}
+error: 请求getUsers失败 {"ms":"+1ms","stack":[null],"timestamp":"2024-12-03T16:17:42.741Z"}
+warn: 请求getUsers警告 {"ms":"+0ms","timestamp":"2024-12-03T16:17:42.741Z"}

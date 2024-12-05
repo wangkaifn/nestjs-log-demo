@@ -1,0 +1,209 @@
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m [33m+1ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m [33m+1ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m  [32mUserController init[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RoutesResolver][39m [32mUserController {/api/v1/user}:[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, POST} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, PATCH} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, DELETE} route[39m [33m+1ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/profile, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logs, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logsByGroup, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53516[39m 2024/12/4 00:06:43 [32m    LOG[39m  [32mApp 运行在：3000[39m [33m+0ms[39m
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:07:48.639Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.646Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.647Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.647Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.647Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.647Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.733Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.734Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:07:48.734Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:07:48.734Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:07:48.740Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.741Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:07:48.742Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:07:48.744Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:07:48.745Z"}
+info: 请求getUsers成功 {"ms":"+1ms","timestamp":"2024-12-03T16:08:25.996Z"}
+error: 请求getUsers失败 {"ms":"+0ms","stack":[null],"timestamp":"2024-12-03T16:08:25.998Z"}
+warn: 请求getUsers警告 {"ms":"+0ms","timestamp":"2024-12-03T16:08:25.999Z"}
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m [33m+2ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m  [32mUserController init[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RoutesResolver][39m [32mUserController {/api/v1/user}:[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, POST} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, PATCH} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, DELETE} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/profile, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logs, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logsByGroup, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m53994[39m 2024/12/4 00:09:13 [32m    LOG[39m  [32mApp 运行在：3000[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m [33m+1ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m  [32mUserController init[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RoutesResolver][39m [32mUserController {/api/v1/user}:[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, POST} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, PATCH} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user, DELETE} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/profile, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logs, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/v1/user/logsByGroup, GET} route[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m [33m+0ms[39m
+[32m[nest-winston][39m [32m54158[39m 2024/12/4 00:10:03 [32m    LOG[39m  [32mApp 运行在：3000[39m [33m+0ms[39m
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:13:18.171Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.179Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.179Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.180Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.180Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.180Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:18.273Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.273Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:13:18.273Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:18.274Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:13:18.280Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.281Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.281Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.282Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.282Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.282Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.282Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:18.282Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:13:18.284Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:13:18.285Z"}
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:13:24.212Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:24.220Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:24.220Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:24.220Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:24.220Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:24.221Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:24.289Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:24.290Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:13:24.290Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:24.290Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:13:24.295Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.296Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.297Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.297Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.297Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.297Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.297Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:24.298Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:13:24.299Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:13:24.300Z"}
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:13:27.750Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.757Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.757Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:27.758Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.758Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.758Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.826Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.826Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:13:27.826Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:27.827Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+1ms","timestamp":"2024-12-03T16:13:27.832Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.833Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.833Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.833Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.833Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.834Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.834Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:27.834Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:13:27.835Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:13:27.837Z"}
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:13:32.793Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.800Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.800Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.800Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:13:32.801Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.801Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.868Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.868Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:13:32.869Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:13:32.869Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:13:32.874Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.875Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.875Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.876Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.876Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.876Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.876Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:13:32.876Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:13:32.878Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:13:32.879Z"}
+info: 请求getUsers成功 {"ms":"+1ms","timestamp":"2024-12-03T16:13:38.002Z"}
+error: 请求getUsers失败 {"ms":"+0ms","stack":[null],"timestamp":"2024-12-03T16:13:38.003Z"}
+warn: 请求getUsers警告 {"ms":"+0ms","timestamp":"2024-12-03T16:13:38.003Z"}
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:15:15.980Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:15:15.988Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:15.988Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:15.988Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:15.988Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:15.988Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:15:16.095Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:16.095Z"}
+info: UserController init {"ms":"+1ms","timestamp":"2024-12-03T16:15:16.096Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:16.096Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:15:16.103Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.104Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.104Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.105Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.105Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.105Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.105Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:16.105Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:15:16.107Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:15:16.108Z"}
+info: Starting Nest application... {"context":"NestFactory","ms":"+1ms","timestamp":"2024-12-03T16:15:48.051Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+1ms","timestamp":"2024-12-03T16:15:48.059Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.059Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.059Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.059Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.059Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.136Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.137Z"}
+info: UserController init {"ms":"+0ms","timestamp":"2024-12-03T16:15:48.137Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","ms":"+0ms","timestamp":"2024-12-03T16:15:48.137Z"}
+info: UserController {/api/v1/user}: {"context":"RoutesResolver","ms":"+0ms","timestamp":"2024-12-03T16:15:48.143Z"}
+info: Mapped {/api/v1/user, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.144Z"}
+info: Mapped {/api/v1/user, POST} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.144Z"}
+info: Mapped {/api/v1/user, PATCH} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.145Z"}
+info: Mapped {/api/v1/user, DELETE} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.145Z"}
+info: Mapped {/api/v1/user/profile, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.145Z"}
+info: Mapped {/api/v1/user/logs, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.145Z"}
+info: Mapped {/api/v1/user/logsByGroup, GET} route {"context":"RouterExplorer","ms":"+0ms","timestamp":"2024-12-03T16:15:48.145Z"}
+info: Nest application successfully started {"context":"NestApplication","ms":"+0ms","timestamp":"2024-12-03T16:15:48.146Z"}
+info: App 运行在：3000 {"ms":"+0ms","timestamp":"2024-12-03T16:15:48.148Z"}
+info: 请求getUsers成功 {"ms":"+1ms","timestamp":"2024-12-03T16:17:42.739Z"}
+error: 请求getUsers失败 {"ms":"+0ms","stack":[null],"timestamp":"2024-12-03T16:17:42.741Z"}
+warn: 请求getUsers警告 {"ms":"+1ms","timestamp":"2024-12-03T16:17:42.742Z"}
